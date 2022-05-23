@@ -7,7 +7,7 @@ export default function Menu() {
         <div className="lulu" >
             <div id="nav">
                 <ul id="ul">
-                    <NavLink to='/Home' className={({ isActive }) => (isActive ? "Li1" : "Li2")}><li>Home</li></NavLink>
+                    <NavLink to='/HomePage' className={({ isActive }) => (isActive ? "Li1" : "Li2")}><li>Home</li></NavLink>
                     <NavLink to='/AboutPage' className={({ isActive }) => (isActive ? "Li1" : "Li2")}><li>About</li></NavLink>
                     <NavLink to='/Contact' className={({ isActive }) => (isActive ? "Li1" : "Li2")}><li>Contact</li></NavLink>
                     <NavLink to='/Corona' className={({ isActive }) => (isActive ? "Li1" : "Li2")}><li>Corona</li></NavLink>
